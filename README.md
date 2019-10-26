@@ -1,4 +1,5 @@
-"# AutoManualBlackjack" 
+AutoManualBlackjack
+
 Background
 TL;DR: Easy Blackjack is the same as normal Blackjack except with both of dealer's cards exposed.
 
