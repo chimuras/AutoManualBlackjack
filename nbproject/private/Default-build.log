@@ -1,0 +1,8 @@
+g++ -MM main.cpp shoe.cpp config.cpp player.cpp hand.cpp easybj.cpp > depend.mk
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  main.cpp -o main.o
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  shoe.cpp -o shoe.o
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  config.cpp -o config.o
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  player.cpp -o player.o
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  hand.cpp -o hand.o
+g++ -c -Wall -Wextra -Werror -g -std=gnu++11  easybj.cpp -o easybj.o
+g++ -Wall -Wextra -Werror -g -std=gnu++11 main.o shoe.o config.o player.o hand.o easybj.o -o asst1
